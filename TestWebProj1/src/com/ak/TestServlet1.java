@@ -45,6 +45,7 @@ public class TestServlet1 extends HttpServlet {
 		boolean valid = um.validate(name, pwd);
 		
 		if(valid) {
+			request.setAttribute("name", name);
 			request.getRequestDispatcher("/WEB-INF/home.jsp").forward(request, response);
 		} else {
 			request.getRequestDispatcher("index.jsp").forward(request, response);

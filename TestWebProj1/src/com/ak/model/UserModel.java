@@ -4,7 +4,7 @@ public class UserModel {
 
 	public boolean validate(String name, String password) {
 
-		if(name.equals("ak") && password.equals("ak")){
+		if(name.equals("akhil") && password.equals("ak")){
 			return true;
 		} 
 		return false;

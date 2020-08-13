@@ -9,7 +9,7 @@
 <body>
 	<form method="post" action="test1">
 		User Name : <input type="text" name="uname"> <br>
-		Password : <input type="text" name="upwd"> <br>
+		Password : <input type="password" name="upwd"> <br>
 		<input type="submit" value="Login"/>
 	</form>
 </body>
